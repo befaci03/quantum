@@ -1,6 +1,6 @@
-local fuzzy = require('opus.fuzzy')
-local UI    = require('opus.ui')
-local Util  = require('opus.util')
+local fuzzy = require('quantum.fuzzy')
+local UI    = require('quantum.ui')
+local Util  = require('quantum.util')
 
 local help   = _G.help
 

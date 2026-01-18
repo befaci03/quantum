@@ -1,6 +1,6 @@
-local Security = require('opus.security')
-local SHA      = require('opus.crypto.sha2')
-local Terminal = require('opus.terminal')
+local Security = require('quantum.security')
+local SHA      = require('quantum.crypto.sha2')
+local Terminal = require('quantum.terminal')
 
 local password = Terminal.readPassword('Enter new password: ')
 

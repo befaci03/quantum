@@ -1,7 +1,7 @@
-local Ansi     = require('opus.ansi')
-local Security = require('opus.security')
-local SHA      = require('opus.crypto.sha2')
-local UI       = require('opus.ui')
+local Ansi     = require('quantum.ansi')
+local Security = require('quantum.security')
+local SHA      = require('quantum.crypto.sha2')
+local UI       = require('quantum.ui')
 
 local colors   = _G.colors
 local os       = _G.os
@@ -9,10 +9,10 @@ local shell    = _ENV.shell
 
 local splashIntro = [[First Time Setup
 
-%sThanks for installing Opus OS. The next screens will prompt you for basic settings for this computer.]]
-local labelIntro = [[Set a friendly name for this computer.
+%sThanks for installing Quantum. The next screens will prompt you for basic settings for this computer.]]
+local labelIntro = [[Set a user name for this computer.
 
-%sNo spaces recommended.]]
+%sPlease prevent using spaces.]]
 local passwordIntro = [[A password is required for wireless access.
 
 %sLeave blank to skip.]]
@@ -21,14 +21,13 @@ local packagesIntro = [[Setup Complete
 %sOpen the package manager to add software to this computer.]]
 local contributorsIntro = [[Contributors%s
 
-Anavrins:    Encryption/security/custom apps
-Community:   Several selected applications
-hugeblank:   Startup screen improvements
-LDDestroier: Art design + custom apps
-Lemmmy:      Application improvements
+None :(
 
 %sContribute at:%s
-https://github.com/kepler155c/opus]]
+https://github.com/befaci03/quantum]]
+local forkedIntro = [[This is a forked version of https://github.com/kepler155c/opus (develop-0.1)
+
+%sSince this was absolutely dead, I decided to revive it!]]
 
 local page = UI.Page {
 	wizard = UI.Wizard {
@@ -95,7 +94,7 @@ local page = UI.Page {
 			index = 4,
 			button = UI.Button {
 				x = 3, y = -3,
-				text = 'Open Package Manager',
+				text = 'Open the Package Manager',
 				event = 'packages',
 			},
 			intro = UI.TextArea {
@@ -112,6 +111,15 @@ local page = UI.Page {
 				inactive = true,
 				x = 3, ex = -3, y = 2, ey = -2,
 				value = string.format(contributorsIntro, Ansi.white, Ansi.yellow, Ansi.white),
+			},
+		},
+		fork = UI.WizardPage {
+			index = 6,
+			intro = UI.TextArea {
+				textColor = colors.yellow,
+				inactive = true,
+				x = 3, ex = -3, y = 2, ey = -2,
+				value = string.format(forkedIntro, Ansi.white, Ansi.yellow, Ansi.white),
 			},
 		},
 	},

@@ -1,4 +1,4 @@
-local Packages = require('opus.packages')
+local Packages = require('quantum.packages')
 
 local colors     = _G.colors
 local fs         = _G.fs

@@ -1,5 +1,5 @@
-local Config = require('opus.config')
-local UI     = require('opus.ui')
+local Config = require('quantum.config')
+local UI     = require('quantum.ui')
 
 local colors = _G.colors
 local fs     = _G.fs

@@ -1,5 +1,5 @@
-local Event  = require('opus.event')
-local Socket = require('opus.socket')
+local Event  = require('quantum.event')
+local Socket = require('quantum.socket')
 
 local fs = _G.fs
 

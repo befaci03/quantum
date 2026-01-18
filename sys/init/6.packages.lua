@@ -1,5 +1,5 @@
-local Packages = require('opus.packages')
-local Util     = require('opus.util')
+local Packages = require('quantum.packages')
+local Util     = require('quantum.util')
 
 local fs    = _G.fs
 local help  = _G.help

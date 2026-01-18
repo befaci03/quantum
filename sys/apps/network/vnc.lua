@@ -1,6 +1,6 @@
-local Event  = require('opus.event')
-local Socket = require('opus.socket')
-local Util   = require('opus.util')
+local Event  = require('quantum.event')
+local Socket = require('quantum.socket')
+local Util   = require('quantum.util')
 
 local os       = _G.os
 local terminal = _G.device.terminal

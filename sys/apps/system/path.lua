@@ -1,6 +1,6 @@
-local Config = require('opus.config')
-local UI     = require('opus.ui')
-local Util   = require('opus.util')
+local Config = require('quantum.config')
+local UI     = require('quantum.ui')
+local Util   = require('quantum.util')
 
 local tab = UI.Tab {
 	title = 'Path',

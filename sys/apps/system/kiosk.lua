@@ -1,4 +1,4 @@
-local UI = require('opus.ui')
+local UI = require('quantum.ui')
 
 local colors     = _G.colors
 local peripheral = _G.peripheral

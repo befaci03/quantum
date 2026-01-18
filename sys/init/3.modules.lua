@@ -1,4 +1,4 @@
-local Util       = require('opus.util')
+local Util       = require('quantum.util')
 
 local device     = _G.device
 local kernel     = _G.kernel

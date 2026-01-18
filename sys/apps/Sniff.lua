@@ -1,6 +1,6 @@
-local UI    = require('opus.ui')
-local Event = require('opus.event')
-local Util  = require('opus.util')
+local UI    = require('quantum.ui')
+local Event = require('quantum.event')
+local Util  = require('quantum.util')
 
 local colors     = _G.colors
 local device     = _G.device

@@ -1,13 +1,13 @@
-local Config = require('opus.config')
-local Util   = require('opus.util')
+local Config = require('quantum.config')
+local Util   = require('quantum.util')
 
 local fs    = _G.fs
 local shell = _ENV.shell
 
-local URL = 'https://raw.githubusercontent.com/kepler155c/opus/%s/.opus_version'
+local URL = 'https://raw.githubusercontent.com/befaci03/quantum/%s/.vers'
 
-if fs.exists('.opus_version') then
-	local f = fs.open('.opus_version', 'r')
+if fs.exists('.vers') then
+	local f = fs.open('.vers', 'r')
 	local date = f.readLine()
 	f.close()
 	date = type(date) == 'string' and Util.split(date)[1]

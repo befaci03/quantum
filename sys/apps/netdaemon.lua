@@ -1,5 +1,5 @@
-local Event = require('opus.event')
-local Util  = require('opus.util')
+local Event = require('quantum.event')
+local Util  = require('quantum.util')
 
 local device     = _G.device
 local fs         = _G.fs

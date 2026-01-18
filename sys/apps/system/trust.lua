@@ -1,6 +1,6 @@
-local UI   = require("opus.ui")
-local Util = require("opus.util")
-local SHA  = require('opus.crypto.sha2')
+local UI   = require("quantum.ui")
+local Util = require("quantum.util")
+local SHA  = require('quantum.crypto.sha2')
 
 local function split(s)
   local b = ""

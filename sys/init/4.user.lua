@@ -1,4 +1,4 @@
-local Util = require('opus.util')
+local Util = require('quantum.util')
 
 local fs    = _G.fs
 local shell = _ENV.shell

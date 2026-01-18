@@ -1,4 +1,4 @@
-local Util = require('opus.util')
+local Util = require('quantum.util')
 
 -- some programs expect to be run in the global scope
 -- ie. busted, moonscript

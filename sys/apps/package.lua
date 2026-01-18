@@ -1,10 +1,10 @@
-local BulkGet  = require('opus.bulkget')
-local Config   = require('opus.config')
-local Git      = require('opus.git')
-local LZW      = require('opus.compress.lzw')
-local Packages = require('opus.packages')
-local Tar      = require('opus.compress.tar')
-local Util     = require('opus.util')
+local BulkGet  = require('quantum.bulkget')
+local Config   = require('quantum.config')
+local Git      = require('quantum.git')
+local LZW      = require('quantum.compress.lzw')
+local Packages = require('quantum.packages')
+local Tar      = require('quantum.compress.tar')
+local Util     = require('quantum.util')
 
 local fs       = _G.fs
 local term     = _G.term

@@ -1,6 +1,6 @@
-local Ansi   = require('opus.ansi')
-local Config = require('opus.config')
-local UI     = require('opus.ui')
+local Ansi   = require('quantum.ansi')
+local Config = require('quantum.config')
+local UI     = require('quantum.ui')
 
 if _G.http.websocket then
 	local config = Config.load('cloud')

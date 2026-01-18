@@ -1,6 +1,6 @@
-local Security = require('opus.security')
-local SHA      = require('opus.crypto.sha2')
-local UI       = require('opus.ui')
+local Security = require('quantum.security')
+local SHA      = require('quantum.crypto.sha2')
+local UI       = require('quantum.ui')
 
 return UI.Tab {
 	title = 'Password',

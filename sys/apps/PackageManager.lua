@@ -1,8 +1,8 @@
-local Ansi     = require('opus.ansi')
-local Config   = require('opus.config')
-local Packages = require('opus.packages')
-local UI       = require('opus.ui')
-local Util     = require('opus.util')
+local Ansi     = require('quantum.ansi')
+local Config   = require('quantum.config')
+local Packages = require('quantum.packages')
+local UI       = require('quantum.ui')
+local Util     = require('quantum.util')
 
 local colors   = _G.colors
 local term     = _G.term

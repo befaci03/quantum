@@ -1,7 +1,7 @@
-local Ansi   = require('opus.ansi')
-local Event  = require('opus.event')
-local UI     = require('opus.ui')
-local Util   = require('opus.util')
+local Ansi   = require('quantum.ansi')
+local Event  = require('quantum.event')
+local UI     = require('quantum.ui')
+local Util   = require('quantum.util')
 
 local fs         = _G.fs
 local peripheral = _G.peripheral

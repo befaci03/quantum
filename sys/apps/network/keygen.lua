@@ -1,6 +1,6 @@
-local ECC    = require('opus.crypto.ecc')
-local Event  = require('opus.event')
-local Util   = require('opus.util')
+local ECC    = require('quantum.crypto.ecc')
+local Event  = require('quantum.event')
+local Util   = require('quantum.util')
 
 local network = _G.network
 local os      = _G.os

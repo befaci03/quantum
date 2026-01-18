@@ -1,4 +1,4 @@
-local Config     = require('opus.config')
+local Config     = require('quantum.config')
 
 local multishell = _ENV.multishell
 local os         = _G.os
@@ -11,7 +11,7 @@ if not args[1] then
 end
 
 if not _G.http.websocket then
-	error('Requires CC: Tweaked')
+	error('Requires CC: Tweaked or CC: Restitched')
 end
 
 if not _G.cloud_catcher then

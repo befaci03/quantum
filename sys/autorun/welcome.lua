@@ -1,5 +1,5 @@
-local Config = require('opus.config')
-local Util   = require('opus.util')
+local Config = require('quantum.config')
+local Util   = require('quantum.util')
 
 local fs     = _G.fs
 local os     = _G.os

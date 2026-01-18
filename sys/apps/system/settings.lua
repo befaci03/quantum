@@ -1,4 +1,4 @@
-local UI = require('opus.ui')
+local UI = require('quantum.ui')
 
 local settings = _G.settings
 

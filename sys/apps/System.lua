@@ -1,5 +1,5 @@
-local UI     = require('opus.ui')
-local Util   = require('opus.util')
+local UI     = require('quantum.ui')
+local Util   = require('quantum.util')
 
 local fs     = _G.fs
 local shell  = _ENV.shell

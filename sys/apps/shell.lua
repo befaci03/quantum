@@ -1,8 +1,8 @@
 local parentShell = _ENV.shell
 _ENV.shell = { }
 
-local trace = require('opus.trace')
-local Util  = require('opus.util')
+local trace = require('quantum.trace')
+local Util  = require('quantum.util')
 
 local fs       = _G.fs
 local settings = _G.settings
@@ -365,12 +365,12 @@ if #tArgs > 0 then
 	return run(...)
 end
 
-local Config   = require('opus.config')
-local Entry    = require('opus.entry')
-local History  = require('opus.history')
-local Input    = require('opus.input')
-local Sound    = require('opus.sound')
-local Terminal = require('opus.terminal')
+local Config   = require('quantum.config')
+local Entry    = require('quantum.entry')
+local History  = require('quantum.history')
+local Input    = require('quantum.input')
+local Sound    = require('quantum.sound')
+local Terminal = require('quantum.terminal')
 
 local colors    = _G.colors
 local os        = _G.os

@@ -1,6 +1,6 @@
-local LZW  = require('opus.compress.lzw')
-local Tar  = require('opus.compress.tar')
-local Util = require('opus.util')
+local LZW  = require('quantum.compress.lzw')
+local Tar  = require('quantum.compress.tar')
+local Util = require('quantum.util')
 
 local fs = _G.fs
 

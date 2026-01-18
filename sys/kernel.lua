@@ -1,8 +1,8 @@
 -- TODO rewrite
-local Array    = require('opus.array')
-local Terminal = require('opus.terminal')
-local trace    = require('opus.trace')
-local Util     = require('opus.util')
+local Array    = require('quantum.array')
+local Terminal = require('quantum.terminal')
+local trace    = require('quantum.trace')
+local Util     = require('quantum.util')
 
 _G.kernel = {
 	UID = 0,

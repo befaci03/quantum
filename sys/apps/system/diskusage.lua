@@ -1,6 +1,6 @@
-local UI     = require('opus.ui')
-local Event  = require('opus.event')
-local NFT    = require('opus.nft')
+local UI     = require('quantum.ui')
+local Event  = require('quantum.event')
+local NFT    = require('quantum.nft')
 
 local colors     = _G.colors
 local fs         = _G.fs

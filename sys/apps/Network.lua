@@ -1,8 +1,8 @@
-local Config = require('opus.config')
-local Event  = require('opus.event')
-local Socket = require('opus.socket')
-local UI     = require('opus.ui')
-local Util   = require('opus.util')
+local Config = require('quantum.config')
+local Event  = require('quantum.event')
+local Socket = require('quantum.socket')
+local UI     = require('quantum.ui')
+local Util   = require('quantum.util')
 
 local device     = _G.device
 local network    = _G.network

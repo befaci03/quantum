@@ -1,10 +1,10 @@
-local Config     = require('opus.config')
+local Config     = require('quantum.config')
 
 local read  = _G.read
 local shell = _ENV.shell
 
 if not _G.http.websocket then
-	error('Requires CC: Tweaked')
+	error('Requires CC: Tweaked or CC: Restitched')
 end
 
 if not _G.cloud_catcher then
