@@ -1,3 +1,4 @@
+-- TODO rewrite
 local Array    = require('opus.array')
 local Terminal = require('opus.terminal')
 local trace    = require('opus.trace')
@@ -306,7 +307,7 @@ local function init(...)
 
 	local runLevel = #args > 0 and 6 or 7
 
-	print('Starting Opus OS')
+	print('Starting Quantum')
 	local dir = 'sys/init'
 	local files = fs.list(dir)
 	table.sort(files)
@@ -326,7 +327,6 @@ local function init(...)
 
 	if args[1] then
 		kernel.hook('kernel_ready', function()
-
 			term.redirect(kernel.window)
 			shell.run('sys/apps/autorun.lua')
 
